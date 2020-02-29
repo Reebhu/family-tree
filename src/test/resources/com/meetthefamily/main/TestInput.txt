@@ -1,0 +1,26 @@
+ADD_CHILD Pjali Srutak Male
+GET_RELATIONSHIP Pjali Son
+ADD_CHILD Lavnya Kirit Male
+ADD_CHILD Satya Ketu Male
+GET_RELATIONSHIP Kriya Paternal-Uncle
+GET_RELATIONSHIP Jaya Brother-In-Law
+GET_RELATIONSHIP Ish Sister-In-Law
+GET_RELATIONSHIP Vasa Siblings
+ADD_CHILD Chitra Aria Female
+GET_RELATIONSHIP Lavnya Maternal-Aunt
+GET_RELATIONSHIP Yodhan Maternal-Uncle
+GET_RELATIONSHIP Laki Paternal-Aunt
+GET_RELATIONSHIP Amba Son
+GET_RELATIONSHIP Lika Daughter
+GET_RELATIONSHIP Raj Son
+GET_RELATIONSHIP Amba Grandpa
+ADD_CHILD Ish Aria Female
+ADD_CHILD Kami Raj Male
+MAKE_CHILD Anas Amba Male
+GET_RELATIONSHIP Jaya Sister-In-Law
+GET_RELATIONSHIP Ish Brother-In-Law
+ADD_SPOUSE Raj Githa Female
+ADD_CHILD Chitra Aria Female
+GET_RELATIONSHIP Lavnya Maternal-Aunt
+GET_RELATIONSHIP Aria Siblings
+GET_RELATIONSHIP Yodhan Paternal-Uncle
