@@ -14,3 +14,6 @@
 ## Assumptions
 1. The names are unique for each member.
 2. Single mothers not supported.
+
+### Build
+Actions: ![Meet The Family](https://github.com/Reebhu/family-tree/workflows/Meet%20The%20Family/badge.svg)
