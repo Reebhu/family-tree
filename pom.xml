@@ -43,23 +43,9 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>com.atlassian.maven.plugins</groupId>
-				<artifactId>clover-maven-plugin</artifactId>
-				<version>${clover.version}</version>
-				<configuration>
-					<licenseLocation>/path/to/clover.license</licenseLocation>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
-		<dependency>
-			<groupId>org.openclover</groupId>
-			<artifactId>clover-maven-plugin</artifactId>
-			<version>4.4.1</version>
-			<type>maven-plugin</type>
-		</dependency>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
