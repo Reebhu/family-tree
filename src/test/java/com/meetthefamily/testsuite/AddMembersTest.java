@@ -1,4 +1,4 @@
-package com.meetthefamily.main;
+package com.meetthefamily.testsuite;
 
 import static org.junit.Assert.assertEquals;
 

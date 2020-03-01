@@ -47,9 +47,11 @@ public class MemberTypeFactory
 		case ADD_HEAD:
 			memberType = new HeadMember();
 			break;
+		// CLOVER:OFF
 		default:
 			throw new IllegalArgumentException("Invalid Input");
 		}
+		// CLOVER:ON
 		return memberType.add(input, familyMap);
 	}
 

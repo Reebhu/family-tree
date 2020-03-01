@@ -1,4 +1,4 @@
-package com.meetthefamily.main;
+package com.meetthefamily.testsuite;
 
 import static org.junit.Assert.assertEquals;
 
@@ -39,7 +39,7 @@ public class AddAndGetRelationTest
 	@Test
 	public void test_input1()
 	{
-		final URL inputURL = GeekTrustMainTest.class.getResource("TestInput1.txt");
+		final URL inputURL = SolutionTest.class.getResource("TestInput1.txt");
 		final String path = inputURL.getPath().replace("%20", " ");
 		final String args[] = {
 				path
@@ -51,7 +51,7 @@ public class AddAndGetRelationTest
 	@Test
 	public void test_input2()
 	{
-		final URL inputURL = GeekTrustMainTest.class.getResource("TestInput2.txt");
+		final URL inputURL = SolutionTest.class.getResource("TestInput2.txt");
 		final String path = inputURL.getPath().replace("%20", " ");
 		final String args[] = {
 				path
@@ -64,7 +64,7 @@ public class AddAndGetRelationTest
 	public void test_input3()
 	{
 
-		final URL inputURL = GeekTrustMainTest.class.getResource("TestInput3.txt");
+		final URL inputURL = SolutionTest.class.getResource("TestInput3.txt");
 		final String path = inputURL.getPath().replace("%20", " ");
 		final String args[] = {
 				path

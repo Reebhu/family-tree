@@ -8,10 +8,7 @@
     ```
 2. To test the code simply run the JUnit test case.
     - Tests will run based on the input file under test resources.
-    - Coverage report can be found at path 
-    ```
-        report/html/dashboard.html
-    ```
+    
     
     
 ## Assumptions

@@ -20,11 +20,6 @@ public enum Relation
 		this.name = name;
 	}
 
-	public String getName()
-	{
-		return name;
-	}
-
 	public static Relation fromString(String text)
 	{
 		for (final Relation realtion : Relation.values())

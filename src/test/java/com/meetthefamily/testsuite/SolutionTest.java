@@ -1,4 +1,4 @@
-package com.meetthefamily.main;
+package com.meetthefamily.testsuite;
 
 import static org.junit.Assert.assertEquals;
 
@@ -15,7 +15,7 @@ import com.meetthefamily.main.Solution;
 /**
  * @author Reebhu
  */
-public class GeekTrustMainTest
+public class SolutionTest
 {
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
@@ -46,7 +46,7 @@ public class GeekTrustMainTest
 	@Test
 	public void test()
 	{
-		final URL inputURL = GeekTrustMainTest.class.getResource("TestInput.txt");
+		final URL inputURL = SolutionTest.class.getResource("TestInput.txt");
 		final String path = inputURL.getPath().replace("%20", " ");
 		final String args[] = {
 				path

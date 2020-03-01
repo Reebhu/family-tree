@@ -38,10 +38,12 @@ public class Family
 				addMember(familyMap, input, instruction);
 			}
 		}
+		// CLOVER:OFF
 		catch (final IOException e)
 		{
 			System.out.println("Exception:" + e.getMessage());
 		}
+		// CLOVER:ON
 		return familyMap;
 	}
 
